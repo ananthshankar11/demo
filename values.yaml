@@ -1,0 +1,13 @@
+platform: "openshift"
+
+oneagent:
+  name: "oneagent"
+  apiUrl: "https://dynatrace.bloodservices.ca/e/d355b0b4-ee63-4248-91eb-3b232cb95a30/api"
+  args:
+    - --set-app-log-content-access=true
+  skipCertCheck: true
+  enableIstio: true
+
+secret:
+  apiToken: "nYlkdFn8T4ez-_Wy51rpN"
+  paasToken: "TwN-4QueSO2x41g7rCf10"
